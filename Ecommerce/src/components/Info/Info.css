@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Kumbh Sans-B';
+    src: url(../../assets/Fonts/static/KumbhSans-Bold.ttf);
+}
+@font-face {
+    font-family:'Kumbh Sans-M';
+    src: url(../../assets/Fonts/static/KumbhSans-Medium.ttf);
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 400px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 40px;
+}
+#counterbtn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(223, 64%, 98%);
+}
+h1{
+    color: hsl(220, 13%, 13%);
+    margin: 0;
+    font-family: 'Kumbh Sans-B';
+}
+#cart{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    background-color: hsl(26, 100%, 55%);
+    color:hsl(220, 13%, 13%) ;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Kumbh Sans-B';
+}
+#car{
+    width: 15px;
+    height: 15px;
+    fill:hsl(220, 13%, 13%) ;
+    filter: sepia(1) hue-rotate(220deg) saturate(1) brightness(0.4) contrast(1.2);
+  
+}
+.counter{
+    color: hsl(26, 100%, 55%);
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: hsl(223, 64%, 98%);
+}
+p{
+    color: hsl(219, 9%, 45%);
+    font-family:'Kumbh Sans-M';
+}
+#companyname{
+    color: hsl(219, 9%, 45%);
+    font-size: 17px;
+    font-family:'Kumbh Sans-M';
+    text-transform: uppercase;
+
+}
+#price{
+    color:hsl(220, 13%, 13%) ;
+    font-size: 20px;
+    font-family: 'Kumbh Sans-B';
+}
+span{
+    margin-left: 20px;
+    width: 130px;
+    height: 30px;
+    background-color: hsl(220, 13%, 13%);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+#discount{
+    text-decoration: line-through;
+    color: hsl(219, 9%, 45%);
+    font-size: 15px;
+    font-family:'Kumbh Sans-M';
+}
+#number{
+    color:hsl(220, 13%, 13%) ;
+    font-family: 'Kumbh Sans-B';
+}
+#prices{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width:375px) {
+    #info{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 350px;
+    }
+    p{
+        margin: 0;
+    }
+    #buttons{
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 0;
+    }
+    #prices{
+        display: flex;
+        flex-direction: row;
+        column-gap:100px;
+    }
+    #cart,#counterbtn{
+        width: 300px;
+        height: 40px;
+    }
+    
+}
