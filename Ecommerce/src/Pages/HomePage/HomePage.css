@@ -98,6 +98,9 @@ button{
   #root{
     overflow-x: hidden;
   }
+  ul li a.active-link {
+    border-bottom: 2px solid none;
+  }
     .menu-icon {
         display: block;
         margin-right: 10px;
