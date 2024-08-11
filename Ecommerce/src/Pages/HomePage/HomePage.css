@@ -99,7 +99,7 @@ button{
     overflow-x: hidden;
   }
   ul li a.active-link {
-    border-bottom: 2px solid none;
+    border-bottom:none;
   }
     .menu-icon {
         display: block;
